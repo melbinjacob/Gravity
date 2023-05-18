@@ -50,6 +50,8 @@
         width: 100%;
     }.carousel-caption > a{
         padding: 10px 15px;
+    }.card{
+        border-radius: 0;
     }
 }
 .img-fluid{
