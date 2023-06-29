@@ -70,3 +70,35 @@
 }.team .card{
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
+
+/* Gallary Page */
+.gallery-section{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.coloumn{
+    width: 300px;
+    margin: 160px 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}.img-div{
+    width: 300px;
+    height: 350px;
+    margin: 10px 5px 10px 5px;
+    background-color: blue;
+}.img{
+    width: 300px;
+    height:  350px;
+    object-fit: cover;
+}@media screen and (max-width:767px){
+    .gallery-section{
+        width: 350px;
+        flex-direction: column;
+    }.coloumn{
+        margin: 60px 10px;
+    }
+}
